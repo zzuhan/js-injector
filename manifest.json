@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+
+	"name": "inject-js",
+	"description": "inject js to page for debug",
+	"version": "0.0.1",
+
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+
+	"permissions": ["<all_urls>", "activeTab"],
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "inject-js"
+	}
+}
